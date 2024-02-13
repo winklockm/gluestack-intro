@@ -71,11 +71,11 @@ function HeaderLogo() {
   return (
     <Box alignItems="center" justifyContent="center">
       <Image
-        h="$10"
+        h="$20"
         w="$80"
         alt="gluestack-ui Pro"
         resizeMode="contain"
-        source={require('./assets/images/gluestackUiProLogo_web_light.svg')}
+        source={require('./assets/images/logo.png')}
         sx={{
           '@md': {
             display: 'flex',
@@ -92,7 +92,7 @@ function HeaderLogo() {
         }}
         alt="gluestack-ui Pro"
         display="flex"
-        source={require('./assets/images/gluestackUiProLogo_mobile.png')}
+        source={require('./assets/images/logo.png')}
         w={275}
         h={141}
       />
